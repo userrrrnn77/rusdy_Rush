@@ -1,0 +1,234 @@
+.about {
+    overflow-y: auto;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.aboutContainer {
+    padding: 20px;
+}
+
+.aboutParagraf {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.abtSatu {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.abtDua {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.abtTeknologi {
+    padding: 15px;
+}
+
+.tekJudul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconTek {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #323232;
+    border-radius: 10px;
+}
+
+.iconJudul {
+    font-size: 26px;
+    color: #077eff;
+}
+
+.teknologiJudul {
+    font-size: 26px;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.tekContainer {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.tekPerItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #212121, #121212);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(52, 52, 52, 0.5);
+}
+
+.tekPerItem:hover {
+    transform: scale(1.05);
+}
+
+.tekIcon {
+    padding: 10px;
+    background: #343434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.iconsTekRinci {
+    font-size: 22px;
+}
+
+.tekRinci {
+    display: flex;
+    flex-direction: column;
+}
+
+.judulTekRinci {
+    font-size: 18px;
+    font-family: "JetBrains Mono", monospace;
+    color: #077eff;
+}
+
+.tekDesk {
+    font-size: 14px;
+}
+
+.html {
+    color: #e34c26;
+}
+
+.css {
+    color: #264de4;
+}
+
+.js {
+    color: #f0db4f;
+}
+
+.react {
+    color: #61dbfb;
+}
+
+.nodejs {
+    color: #3c873a;
+}
+
+.xampp {
+    color: #fb7a24;
+}
+
+.whatImDoing {
+    margin-bottom: 120px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.whtimdoingperitem {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(145deg, #212121, #121212);
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(52, 52, 52, 0.5);
+    cursor: pointer;
+}
+
+.whtimdoingperitem:hover {
+    transform: scale(1.03);
+}
+
+.whticon {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconwht {
+    font-size: 36px;
+    color: #077eff;
+}
+
+.whttext {
+    padding: 20px;
+}
+
+.judulwht {
+    font-family: "JetBrains Mono", monospace;
+    color: #077eff;
+    font-size: 22px;
+}
+
+@media (max-width: 480px) {
+    .about {
+        height: 100vh;
+    }
+
+    .abtSatu {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .abtDua {
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .teknologiJudul {
+        font-size: 18px;
+    }
+
+    .iconJudul {
+        font-size: 18px;
+    }
+
+    .judulTekRinci {
+        font-size: 12px;
+    }
+
+    .tekDesk {
+        font-size: 8px;
+    }
+
+    .iconsTekRinci {
+        font-size: 14px;
+    }
+
+    .judulwht {
+        font-size: 12px;
+    }
+
+    .whtdesk {
+        font-size: 8px;
+    }
+
+    .iconwht {
+        font-size: 16px;
+    }
+
+    .whttext {
+        padding: 5px;
+    }
+
+    .whatImDoing {
+        margin-bottom: 60px;
+    }
+
+    .tekContainer {
+        padding: 5px;
+    }
+}

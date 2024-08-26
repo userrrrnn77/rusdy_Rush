@@ -1,0 +1,194 @@
+.sidebarKiri {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #212121 5%, #0f0f0f 80%);
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+}
+
+.typewriterText {
+    color: #077eff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.cursor {
+    color: #fff;
+    animation: blink 0.5s step-end infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+.sidebarProfile {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.mediaScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideFoto {
+    padding: 10px 25px;
+    background: #121212;
+    border-radius: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideName {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #212121;
+    border-radius: 50px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.sideGelar {
+    margin-top: 5px;
+}
+
+.sideRincian {
+    display: flex;
+    flex-direction: column;
+}
+
+.rincianPerItem {
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.rincianPerItem:hover {
+    transform: scale(1.02);
+    transition: all 300ms ease-in;
+}
+
+.sideIcons {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #077eff;
+    border-radius: 5px;
+}
+
+.sideIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+.sideTexts {
+    display: flex;
+    flex-direction: column;
+}
+
+.sideJudul {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "JetBrains Mono", monospace;
+    color: #077eff;
+}
+
+.sideDesk {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.copyRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: 200;
+    position: absolute;
+    bottom: 2%;
+}
+
+@media (max-width: 500px) {
+    .sidebarKiri {
+        display: flex;
+        height: 130px;
+        width: 100%;
+        max-width: 500px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .sideFoto {
+        padding: 5px 15px;
+        width: 100px;
+    }
+
+    .sidebarProfile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-left: 5px;
+    }
+
+    .sideName {
+        font-size: 14px;
+    }
+
+    .mediaScreen {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .typewriterText {
+        font-size: 12px;
+    }
+
+    .sideTexts {
+        display: none;
+    }
+
+    .sideRincian {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-right: 20px;
+    }
+
+    .sideIcon {
+        font-size: 24px;
+    }
+
+    .rincianPerItem:hover {
+        transform: scale(1.02);
+        transition: all 300ms ease-in;
+    }
+
+    .copyRight {
+        display: none;
+    }
+}

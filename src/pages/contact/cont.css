@@ -1,0 +1,110 @@
+.contact {
+    overflow-y: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.conMaps {
+    width: 100%;
+    height: 230px;
+    border: none;
+    outline: none;
+}
+
+.maps {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1) invert(1);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.inputDataDiri {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.inputCuy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: #232323;
+    color: #fff;
+}
+
+.inputDesk {
+    margin-top: 5px;
+    width: 100%;
+    height: 155px;
+    resize: none;
+    font-family: "Poppins", sans-serif;
+    background: #232323;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.conInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+        font-size: 16px;
+    }
+}
+
+.iconsIns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.ig {
+    font-size: 16px;
+}
+
+.conSub {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: #0773ff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.conSub:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width: 480px) {
+    .conMaps{
+        height: 490px;
+    }
+}

@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navTitle {
+    font-weight: 600;
+    font-size: 34px;
+    font-family: "JetBrains Mono", monospace;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.navLists {
+    display: flex;
+    gap: 15px;
+    padding: 30px;
+    background: #313131;
+    border-radius: 0 20px 0 15px;
+}
+
+.navList {
+    text-decoration: none;
+    color: #077eff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    .navTitle{
+        font-weight: 400;
+        font-size: 21px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .navList{
+        font-size: 12px;
+    }
+
+    .navLists{
+        padding: 20px;
+    }
+}

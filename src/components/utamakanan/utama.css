@@ -1,0 +1,9 @@
+.utama{
+    width: 100%;
+    flex: 1;
+    height: 100%;
+    background: linear-gradient(180deg, #212121 5%, #0f0f0f 80%);
+    border-radius: 20px;
+    overflow-y: hidden;
+    position: relative;
+}

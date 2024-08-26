@@ -1,0 +1,225 @@
+.resume {
+    overflow-y: auto;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.resumeContainer {
+    padding: 20px;
+}
+
+.bulat {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #0773ff;
+    z-index: 1;
+}
+
+.garis {
+    width: 1.5px;
+    height: 280px;
+    background: #fff;
+    position: absolute;
+}
+
+.garisDanBulat {
+    padding: 5px;
+    margin-top: 3px;
+    justify-content: center;
+    display: flex;
+}
+
+.garisBlat {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 10px;
+}
+
+.resumeEducation {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.resTitleEducation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconEducation {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #454545;
+    border-radius: 10px;
+}
+
+.iconsTitle {
+    font-size: 22px;
+    color: #0773ff;
+}
+
+.resTitle {
+    font-size: 26px;
+    font-family: "JetBrains Mono", monospace;
+    color: #0773ff;
+}
+
+.educationTexts {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.educationTitle {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.spanYear {
+    font-size: 16px;
+    color: #0773ff;
+}
+
+.jurusanEducation {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #0773ff;
+    font-size: 22px;
+}
+
+.deskripsiEducation {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.resumeEduContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.agakPendek {
+    height: 220px;
+}
+
+.pendekBgt {
+    height: 130px;
+}
+
+.pendekCuy {
+    height: 180px;
+}
+
+@media (max-width: 480px) {
+    .jurusanEducation {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .deskripsiEducation {
+        font-size: 12px;
+    }
+
+    .educationTitle {
+        font-size: 16px;
+    }
+
+    .spanYear {
+        font-size: 10px;
+    }
+
+    .marginTop {
+        margin-top: 5px;
+    }
+
+    .garis {
+        height: 320px;
+    }
+
+    .agakPendek {
+        height: 285px;
+    }
+
+    .pendekBgt {
+        height: 200px;
+    }
+    .anjiing{
+        font-size: 16px;
+    }
+
+    .skilScuy{
+        margin-bottom: 0;
+    }
+    .garisCuy{
+        margin: 0;
+    }
+    .spanSkil{
+        font-size: 8px;
+    }
+}
+
+.resSkilsContainer {
+    margin-bottom: 80px;
+    padding: 20px;
+    margin-top: 20px;
+    background: #4545455c;
+    border-radius: 30px;
+}
+
+.skilJudul {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skilScuy {
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.spanSkil {
+    font-size: 16px;
+    color: #0773ff;
+}
+
+.garisCuy {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.garisAtas {
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.garisBawah{
+    width: 43%;
+    position: absolute;height: 2px;background: #0773ff;
+}
+
+.dsg{
+    width: 68%;
+}
+
+.frntend{
+    width: 57%;
+}
+
+.gphdsg{
+    width: 82%;
+}
